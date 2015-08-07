@@ -370,15 +370,13 @@ static BOOL disableCustomEasing = NO;
         font = [UIFont systemFontOfSize:15.0f];
         titleColor = delegatedColor ? [self.sectionDelegate actionSheetSection:self textColorForButtonStyle:buttonStyle] : [UIColor blackColor];
         
-        backgroundColor = [UIColor colorWithWhite:0.95f alpha:1.0f];
-        borderColor = [UIColor colorWithWhite:0.9f alpha:1.0f];
+        backgroundColor = [UIColor whiteColor];
     }
     else if (buttonStyle == JGActionSheetButtonStyleCancel) {
         font = [UIFont boldSystemFontOfSize:15.0f];
         titleColor = delegatedColor ? [self.sectionDelegate actionSheetSection:self textColorForButtonStyle:buttonStyle] : [UIColor blackColor];
         
-        backgroundColor = [UIColor colorWithWhite:0.95f alpha:1.0f];
-        borderColor = [UIColor colorWithWhite:0.9f alpha:1.0f];
+        backgroundColor = [UIColor whiteColor];
     }
     else if (buttonStyle == JGActionSheetButtonStyleRed) {
         font = [UIFont systemFontOfSize:15.0f];
